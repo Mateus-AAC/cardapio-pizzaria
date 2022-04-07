@@ -12,17 +12,9 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://i.pinimg.com/736x/a0/fd/24/a0fd243fc8a65b1618cfa58701cd5078.jpg" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <img src="https://i.pinimg.com/736x/a0/fd/24/a0fd243fc8a65b1618cfa58701cd5078.jpg" width="100px;" alt="o GitHub"/><br>
         <sub>
           <b>Mateus Augusto</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/M%C3%A9liuz_Logo.png" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
-        <sub>
-          <b>Meliuz</b>
         </sub>
       </a>
     </td>
