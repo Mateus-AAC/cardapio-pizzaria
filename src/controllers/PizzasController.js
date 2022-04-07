@@ -3,7 +3,7 @@ const pizzas = require('../database/pizza.json')
 const PizzasController = {
      
      listar: (req, res) => {
-          res.render('../src/public/views/pizzas.ejs', { pizzas, busca:'' });
+          res.render('../src/views/pizzas.ejs', { pizzas, busca:'' });
      },
 
      mostrar: (req, res) => {
@@ -30,7 +30,7 @@ const PizzasController = {
               idAnterior = pizzas[posicao -1].id;
          };
 
-          res.render('../src/public/views/pizza.ejs',{pizza, idAnterior, idProxima});
+          res.render('../src/views/pizza.ejs',{pizza, idAnterior, idProxima});
      },
 
      buscar: (req, res) => {
@@ -40,7 +40,7 @@ const PizzasController = {
           if (busca) {
                let result = pizzas.filter(p => p.nome.toUpperCase().includes(busca.toUpperCase()));
 
-               return res.render('../src/public/views/pizzas.ejs', { pizzas: result, busca });
+               return res.render('../src/views/pizzas.ejs', { pizzas: result, busca });
           } else {
                return res.redirect('/');
           }
