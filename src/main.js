@@ -8,7 +8,7 @@ const PizzaRouter= require ('./router/PizzaRouter')
 
 const path = require ('path');
 
-app.set('view engrine', 'ejs');
+app.set('view engine', 'ejs');
 
 app.use(express.static(path.join(__dirname, 'public')));
 
