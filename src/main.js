@@ -2,8 +2,6 @@ const express = require('express');
 
 const app = express();
 
-const porta = 8080; 
-
 const PizzaRouter= require ('./router/PizzaRouter')
 
 const path = require ('path');
